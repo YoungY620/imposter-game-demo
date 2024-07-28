@@ -1,0 +1,15 @@
+{
+    "HomePage": {
+        "title":"The Imposters",
+      "subtitle1": "An AI-based Multiplayer Online Role-Playing Strategy Game",
+      "subtitle2": "Become a Resistance member or Human Traitor, using strategic prompts to identify android imposters to achieve your objectives.",
+      "button": {
+        "start": "Start Game",
+        "setting": "Story Setting",
+        "rule": "Rules"
+      }
+    },
+    "LocaleSwitcher": {
+      "switchLocale": "切换为 {locale, select, zh {中文} en {英文} other {未定义}}"
+    }
+  }
