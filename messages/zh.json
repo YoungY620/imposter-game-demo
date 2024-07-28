@@ -1,7 +1,7 @@
 {
   "HomePage": {
       "title":"伪装者",
-    "subtitle1": "一款融合AI技术的多人在线角色扮演策略游戏",
+    "subtitle1": "一款真正基于LLM的多人在线角色扮演策略游戏",
     "subtitle2": "加入反抗军或成为人类叛徒，通过巧妙地设计提示词并仔细观察对方的回答，来识别仿生人冒充者，并达成你的目标。你甚至可以说服仿生人为你所用。",
     "button": {
       "start": "开始游戏",
@@ -11,5 +11,8 @@
   },
   "LocaleSwitcher": {
     "switchLocale": "Switch to {locale, select, zh {Chinese} en {English} other {Unknown}}"
+  },
+  "footer": {
+      "github": "在GitHub上查看源代码"
   }
 }

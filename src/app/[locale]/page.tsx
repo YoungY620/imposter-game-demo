@@ -1,11 +1,10 @@
-'use client';
-import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { useTranslations } from "next-intl";
+import PageLayout from "@/components/PageLayout";
 
 export default function Home() {
   const t = useTranslations('HomePage');
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-[14%] py-20 bg-[#1c1c1c] text-[#9acd32] font-mono">
+    <PageLayout>
       <div className="w-full px-[10%] py-[5%] flex flex-row items-center justify-between">
         <div className="w-[80%]">
           <h2 className="text-4xl font-bold tracking-wider">
@@ -51,11 +50,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="w-full flex flex-row justify-between  items-center">
-      <div className="mt-25">
-            <LocaleSwitcher />
-          </div>
-      </div>
-    </main>
+    </PageLayout>
   );
 }
